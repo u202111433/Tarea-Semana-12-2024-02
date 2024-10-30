@@ -53,6 +53,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DProducto.cs" />
+    <Compile Include="DProductoxSupermercado.cs" />
     <Compile Include="DSupermercado.cs" />
     <Compile Include="ModelEF.Context.cs">
       <AutoGen>True</AutoGen>
