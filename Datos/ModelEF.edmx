@@ -102,7 +102,7 @@
           </Key>
           <Property Name="SupermercadoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="NombreReferencial" Type="String" MaxLength="80" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Direccion__Direccion__Direccion__Direccion" Type="String" MaxLength="120" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Direccion" Type="String" MaxLength="120" FixedLength="false" Unicode="true" Nullable="false" />
           <NavigationProperty Name="ProductoxSupermercado" Relationship="Self.FK_ProductoxSupermercado_Supermercado" FromRole="Supermercado" ToRole="ProductoxSupermercado" />
         </EntityType>
         <Association Name="FK_ProductoxSupermercado_Producto">
@@ -173,7 +173,7 @@
               <MappingFragment StoreEntitySet="Supermercado">
                 <ScalarProperty Name="SupermercadoId" ColumnName="SupermercadoId" />
                 <ScalarProperty Name="NombreReferencial" ColumnName="NombreReferencial" />
-                <ScalarProperty Name="Direccion__Direccion__Direccion__Direccion" ColumnName="Direccion&#xD;&#xA;Direccion&#xD;&#xA;Direccion&#xD;&#xA;Direccion" />
+                <ScalarProperty Name="Direccion" ColumnName="Direccion&#xD;&#xA;Direccion&#xD;&#xA;Direccion&#xD;&#xA;Direccion" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

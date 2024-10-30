@@ -12,6 +12,7 @@ namespace Presentacion
 {
     public partial class FormSupermercado : Form
     {
+        
         public FormSupermercado()
         {
             InitializeComponent();

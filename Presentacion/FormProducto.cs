@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Negocio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace Presentacion
 {
     public partial class FormProducto : Form
     {
+        private NProducto nProducto = new NProducto();
         public FormProducto()
         {
             InitializeComponent();

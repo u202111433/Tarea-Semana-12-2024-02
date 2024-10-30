@@ -16,5 +16,29 @@ namespace Presentacion
         {
             InitializeComponent();
         }
+
+        private void btnProductos_Click(object sender, EventArgs e)
+        {
+            FormProducto form = new FormProducto();
+            form.Show();
+        }
+
+        private void btnSupermercado_Click(object sender, EventArgs e)
+        {
+            FormSupermercado form = new FormSupermercado();
+            form.Show();
+        }
+
+        private void btnAsignar_Click(object sender, EventArgs e)
+        {
+            FormProductoxSupermercado form = new FormProductoxSupermercado();
+            form.Show();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            return;
+        }
     }
 }
