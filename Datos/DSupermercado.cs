@@ -27,5 +27,24 @@ namespace Datos
             }
 
         }
+       /* public string Modificar(Supermercado supermercado)
+        {
+
+        }*/
+        public string Eliminar(int SupermercadoId)
+        {
+            try
+            {
+                using (var context = new BDEFEntities())
+                {
+
+                }
+                return "Eliminado correctamente";
+            }
+            catch (Exception ex)
+            {
+                return ex.Message;
+            }
+        }
     }
 }

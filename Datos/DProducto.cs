@@ -48,5 +48,21 @@ namespace Datos
         //Eliminar Fisico
 
         //Modificar
+        public string Modificar(Producto producto)
+        {
+            try
+            {
+                using (var context=new BDEFEntities())
+                {
+                    Producto productoTemp = context.Producto.Find(producto,)
+                }
+                return "Modificado correctamente"
+            }
+            catch (Exception ex)
+            {
+                return ex.Message;
+            }
+        }
+
     }
 }
